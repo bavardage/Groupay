@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+    <title>Test Thing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+      $(document).ready(function() {
+      var g = new gridHandler(
+      [
+      ['jebavarde@gmail.com', '120', 'Ben', 'Duffield'],
+      ['bob.smith@example.com', 123, 'Bob', 'Smith'],
+      ['someone.special@thing.com', 999, 'Someone', 'Special']],
+      'grid');
+      });
+    </script>
+  </head>
+  <body>
+    
+    <form id="grid">
+      <div class="data">
+      </div>
+    </form>
+  </body>
+</html>
+      
